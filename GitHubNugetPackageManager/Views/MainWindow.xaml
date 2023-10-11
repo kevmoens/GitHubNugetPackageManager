@@ -7,7 +7,7 @@
         xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
         xmlns:utility="clr-namespace:GitHubNugetPackageManager.DragDrop"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
+        Title="GitHub Nuget Package Manager" Height="450" Width="800"
         utility:FileDragDropHelper.IsFileDragDropEnabled="True" utility:FileDragDropHelper.FileDragDropTarget="{Binding }"
         >
     <Window.Resources>
